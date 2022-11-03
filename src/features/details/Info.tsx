@@ -123,7 +123,7 @@ export const Info = (props: InfoProps) => {
               <b>Native Name:</b> {nativeName}
             </ListItem>
             <ListItem>
-              <b>Population</b> {population}
+              <b>Population</b> {population.toLocaleString()}
             </ListItem>
             <ListItem>
               <b>Region:</b> {region}
