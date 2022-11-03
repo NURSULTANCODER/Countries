@@ -25,7 +25,7 @@ export type Country = {
     subregion: string,
     capital: string,
     population: number,
-    topLevelDomin: string[],
+    topLevelDomain: string[],
     borders: string[],
     currencies: Currency[],
     languages: Language[],   
