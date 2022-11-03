@@ -139,7 +139,7 @@ export const Info = (props: InfoProps) => {
             <ListItem>
               <b>Top Level Domain</b>{' '}
               {topLevelDomain.map((d) => (
-                <span key={d}>{d}</span>
+                <span key={d}>{d}, </span>
               ))}
             </ListItem>
             <ListItem>
@@ -149,9 +149,9 @@ export const Info = (props: InfoProps) => {
               ))}
             </ListItem>
             <ListItem>
-              <b>Top Level Domain</b>{' '}
+              <b>Languages</b>{' '}
               {languages.map((l) => (
-                <span key={l.name}>{l.name}</span>
+                <span key={l.name}>{l.name}, </span>
               ))}
             </ListItem>
           </List>
